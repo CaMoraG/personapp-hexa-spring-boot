@@ -1,4 +1,5 @@
-use prueba_db
+conn = new Mongo(); 
+db = conn.getDB("persona_db");
 
 db.persona.insertMany([
 	{
