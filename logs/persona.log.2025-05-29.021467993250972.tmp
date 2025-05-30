@@ -1,0 +1,372 @@
+2025-05-29 20:09:04.672  INFO 1 --- [main] c.e.j.as.personapp.PersonAppRestApi      : Starting PersonAppRestApi using Java 17.0.15 on 217d1fd023d0 with PID 1 (/app/app.jar started by root in /app)
+2025-05-29 20:09:04.678  INFO 1 --- [main] c.e.j.as.personapp.PersonAppRestApi      : No active profile set, falling back to 1 default profile: "default"
+2025-05-29 20:09:04.825  INFO 1 --- [main] c.e.j.as.personapp.PersonAppRestApi      : Starting PersonAppRestApi using Java 17.0.15 on 34927f8bef5f with PID 1 (/app/app.jar started by root in /app)
+2025-05-29 20:09:04.841  INFO 1 --- [main] c.e.j.as.personapp.PersonAppRestApi      : No active profile set, falling back to 1 default profile: "default"
+2025-05-29 20:09:06.706  INFO 1 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode
+2025-05-29 20:09:06.715  INFO 1 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-05-29 20:09:06.824  INFO 1 --- [main] .RepositoryConfigurationExtensionSupport : Spring Data JPA - Could not safely identify store assignment for repository candidate interface co.edu.javeriana.as.personapp.mongo.repository.PersonaRepositoryMongo; If you want this repository to be a JPA repository, consider annotating your entities with one of these annotations: javax.persistence.Entity, javax.persistence.MappedSuperclass (preferred), or consider extending one of the following types with your repository: org.springframework.data.jpa.repository.JpaRepository
+2025-05-29 20:09:06.858  INFO 1 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 119 ms. Found 1 JPA repository interfaces.
+2025-05-29 20:09:06.927  INFO 1 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode
+2025-05-29 20:09:06.934  INFO 1 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-05-29 20:09:06.939  INFO 1 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode
+2025-05-29 20:09:06.941  INFO 1 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data MongoDB repositories in DEFAULT mode.
+2025-05-29 20:09:06.963  INFO 1 --- [main] .RepositoryConfigurationExtensionSupport : Spring Data MongoDB - Could not safely identify store assignment for repository candidate interface co.edu.javeriana.as.personapp.mariadb.repository.PersonaRepositoryMaria; If you want this repository to be a MongoDB repository, consider annotating your entities with one of these annotations: org.springframework.data.mongodb.core.mapping.Document (preferred), or consider extending one of the following types with your repository: org.springframework.data.mongodb.repository.MongoRepository
+2025-05-29 20:09:06.974  INFO 1 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 30 ms. Found 1 MongoDB repository interfaces.
+2025-05-29 20:09:07.073  INFO 1 --- [main] .RepositoryConfigurationExtensionSupport : Spring Data JPA - Could not safely identify store assignment for repository candidate interface co.edu.javeriana.as.personapp.mongo.repository.PersonaRepositoryMongo; If you want this repository to be a JPA repository, consider annotating your entities with one of these annotations: javax.persistence.Entity, javax.persistence.MappedSuperclass (preferred), or consider extending one of the following types with your repository: org.springframework.data.jpa.repository.JpaRepository
+2025-05-29 20:09:07.106  INFO 1 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 145 ms. Found 1 JPA repository interfaces.
+2025-05-29 20:09:07.184  INFO 1 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode
+2025-05-29 20:09:07.190  INFO 1 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data MongoDB repositories in DEFAULT mode.
+2025-05-29 20:09:07.221  INFO 1 --- [main] .RepositoryConfigurationExtensionSupport : Spring Data MongoDB - Could not safely identify store assignment for repository candidate interface co.edu.javeriana.as.personapp.mariadb.repository.PersonaRepositoryMaria; If you want this repository to be a MongoDB repository, consider annotating your entities with one of these annotations: org.springframework.data.mongodb.core.mapping.Document (preferred), or consider extending one of the following types with your repository: org.springframework.data.mongodb.repository.MongoRepository
+2025-05-29 20:09:07.234  INFO 1 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 39 ms. Found 1 MongoDB repository interfaces.
+2025-05-29 20:09:08.336  INFO 1 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 3000 (http)
+2025-05-29 20:09:08.361  INFO 1 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-05-29 20:09:08.364  INFO 1 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.74]
+2025-05-29 20:09:08.548  INFO 1 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-05-29 20:09:08.551  INFO 1 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 3680 ms
+2025-05-29 20:09:08.590  INFO 1 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 3000 (http)
+2025-05-29 20:09:08.635  INFO 1 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-05-29 20:09:08.639  INFO 1 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.74]
+2025-05-29 20:09:08.876  INFO 1 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-05-29 20:09:08.879  INFO 1 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 3813 ms
+2025-05-29 20:09:09.238  INFO 1 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-05-29 20:09:09.466  INFO 1 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.6.15.Final
+2025-05-29 20:09:09.611  INFO 1 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-05-29 20:09:09.832  INFO 1 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.6.15.Final
+2025-05-29 20:09:10.094  INFO 1 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2025-05-29 20:09:10.344  INFO 1 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2025-05-29 20:09:10.382  INFO 1 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2025-05-29 20:09:10.621  INFO 1 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2025-05-29 20:09:10.676  INFO 1 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2025-05-29 20:09:10.744  INFO 1 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MariaDB53Dialect
+2025-05-29 20:09:10.866  INFO 1 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2025-05-29 20:09:10.927  INFO 1 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MariaDB53Dialect
+2025-05-29 20:09:12.439  INFO 1 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2025-05-29 20:09:12.677  INFO 1 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2025-05-29 20:09:12.761  INFO 1 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-05-29 20:09:12.978  INFO 1 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-05-29 20:09:14.107  INFO 1 --- [main] org.mongodb.driver.client                : MongoClient with metadata {"driver": {"name": "mongo-java-driver|sync|spring-boot", "version": "4.6.1"}, "os": {"type": "Linux", "name": "Linux", "architecture": "amd64", "version": "5.15.167.4-microsoft-standard-WSL2"}, "platform": "Java/Eclipse Adoptium/17.0.15+6"} created with settings MongoClientSettings{readPreference=primary, writeConcern=WriteConcern{w=null, wTimeout=null ms, journal=null}, retryWrites=true, retryReads=true, readConcern=ReadConcern{level=null}, credential=MongoCredential{mechanism=null, userName='persona_db', source='admin', password=<hidden>, mechanismProperties=<hidden>}, streamFactoryFactory=null, commandListeners=[], codecRegistry=ProvidersCodecRegistry{codecProviders=[ValueCodecProvider{}, BsonValueCodecProvider{}, DBRefCodecProvider{}, DBObjectCodecProvider{}, DocumentCodecProvider{}, IterableCodecProvider{}, MapCodecProvider{}, GeoJsonCodecProvider{}, GridFSFileCodecProvider{}, Jsr310CodecProvider{}, JsonObjectCodecProvider{}, BsonCodecProvider{}, EnumCodecProvider{}, com.mongodb.Jep395RecordCodecProvider@2cc03cd1]}, clusterSettings={hosts=[mongodb:27017], srvServiceName=mongodb, mode=SINGLE, requiredClusterType=UNKNOWN, requiredReplicaSetName='null', serverSelector='null', clusterListeners='[]', serverSelectionTimeout='30000 ms', localThreshold='30000 ms'}, socketSettings=SocketSettings{connectTimeoutMS=10000, readTimeoutMS=0, receiveBufferSize=0, sendBufferSize=0}, heartbeatSocketSettings=SocketSettings{connectTimeoutMS=10000, readTimeoutMS=10000, receiveBufferSize=0, sendBufferSize=0}, connectionPoolSettings=ConnectionPoolSettings{maxSize=100, minSize=0, maxWaitTimeMS=120000, maxConnectionLifeTimeMS=0, maxConnectionIdleTimeMS=0, maintenanceInitialDelayMS=0, maintenanceFrequencyMS=60000, connectionPoolListeners=[], maxConnecting=2}, serverSettings=ServerSettings{heartbeatFrequencyMS=10000, minHeartbeatFrequencyMS=500, serverListeners='[]', serverMonitorListeners='[]'}, sslSettings=SslSettings{enabled=false, invalidHostNameAllowed=false, context=null}, applicationName='null', compressorList=[], uuidRepresentation=JAVA_LEGACY, serverApi=null, autoEncryptionSettings=null, contextProvider=null}
+2025-05-29 20:09:14.178  INFO 1 --- [cluster-rtt-ClusterId{value='6838bee9a57af31c58827cd6', description='null'}-mongodb:27017] org.mongodb.driver.connection            : Opened connection [connectionId{localValue:2, serverValue:9}] to mongodb:27017
+2025-05-29 20:09:14.179  INFO 1 --- [cluster-ClusterId{value='6838bee9a57af31c58827cd6', description='null'}-mongodb:27017] org.mongodb.driver.connection            : Opened connection [connectionId{localValue:1, serverValue:10}] to mongodb:27017
+2025-05-29 20:09:14.197  INFO 1 --- [cluster-ClusterId{value='6838bee9a57af31c58827cd6', description='null'}-mongodb:27017] org.mongodb.driver.cluster               : Monitor thread successfully connected to server with description ServerDescription{address=mongodb:27017, type=STANDALONE, state=CONNECTED, ok=true, minWireVersion=0, maxWireVersion=25, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=80801990}
+2025-05-29 20:09:14.438  INFO 1 --- [main] org.mongodb.driver.client                : MongoClient with metadata {"driver": {"name": "mongo-java-driver|sync|spring-boot", "version": "4.6.1"}, "os": {"type": "Linux", "name": "Linux", "architecture": "amd64", "version": "5.15.167.4-microsoft-standard-WSL2"}, "platform": "Java/Eclipse Adoptium/17.0.15+6"} created with settings MongoClientSettings{readPreference=primary, writeConcern=WriteConcern{w=null, wTimeout=null ms, journal=null}, retryWrites=true, retryReads=true, readConcern=ReadConcern{level=null}, credential=MongoCredential{mechanism=null, userName='persona_db', source='admin', password=<hidden>, mechanismProperties=<hidden>}, streamFactoryFactory=null, commandListeners=[], codecRegistry=ProvidersCodecRegistry{codecProviders=[ValueCodecProvider{}, BsonValueCodecProvider{}, DBRefCodecProvider{}, DBObjectCodecProvider{}, DocumentCodecProvider{}, IterableCodecProvider{}, MapCodecProvider{}, GeoJsonCodecProvider{}, GridFSFileCodecProvider{}, Jsr310CodecProvider{}, JsonObjectCodecProvider{}, BsonCodecProvider{}, EnumCodecProvider{}, com.mongodb.Jep395RecordCodecProvider@497aec8c]}, clusterSettings={hosts=[mongodb:27017], srvServiceName=mongodb, mode=SINGLE, requiredClusterType=UNKNOWN, requiredReplicaSetName='null', serverSelector='null', clusterListeners='[]', serverSelectionTimeout='30000 ms', localThreshold='30000 ms'}, socketSettings=SocketSettings{connectTimeoutMS=10000, readTimeoutMS=0, receiveBufferSize=0, sendBufferSize=0}, heartbeatSocketSettings=SocketSettings{connectTimeoutMS=10000, readTimeoutMS=10000, receiveBufferSize=0, sendBufferSize=0}, connectionPoolSettings=ConnectionPoolSettings{maxSize=100, minSize=0, maxWaitTimeMS=120000, maxConnectionLifeTimeMS=0, maxConnectionIdleTimeMS=0, maintenanceInitialDelayMS=0, maintenanceFrequencyMS=60000, connectionPoolListeners=[], maxConnecting=2}, serverSettings=ServerSettings{heartbeatFrequencyMS=10000, minHeartbeatFrequencyMS=500, serverListeners='[]', serverMonitorListeners='[]'}, sslSettings=SslSettings{enabled=false, invalidHostNameAllowed=false, context=null}, applicationName='null', compressorList=[], uuidRepresentation=JAVA_LEGACY, serverApi=null, autoEncryptionSettings=null, contextProvider=null}
+2025-05-29 20:09:14.493  INFO 1 --- [cluster-ClusterId{value='6838beea1e17b6312d93bdef', description='null'}-mongodb:27017] org.mongodb.driver.connection            : Opened connection [connectionId{localValue:1, serverValue:12}] to mongodb:27017
+2025-05-29 20:09:14.528  INFO 1 --- [cluster-ClusterId{value='6838beea1e17b6312d93bdef', description='null'}-mongodb:27017] org.mongodb.driver.cluster               : Monitor thread successfully connected to server with description ServerDescription{address=mongodb:27017, type=STANDALONE, state=CONNECTED, ok=true, minWireVersion=0, maxWireVersion=25, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=112752765}
+2025-05-29 20:09:14.493  INFO 1 --- [cluster-rtt-ClusterId{value='6838beea1e17b6312d93bdef', description='null'}-mongodb:27017] org.mongodb.driver.connection            : Opened connection [connectionId{localValue:2, serverValue:11}] to mongodb:27017
+2025-05-29 20:09:17.648  INFO 1 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 3000 (http) with context path ''
+2025-05-29 20:09:17.718  INFO 1 --- [main] c.e.j.as.personapp.PersonAppRestApi      : Started PersonAppRestApi in 14.396 seconds (JVM running for 15.606)
+2025-05-29 20:09:17.748  INFO 1 --- [main] c.e.j.as.personapp.PersonAppRestApi      : Started PersonAppRestApi OK
+2025-05-29 20:09:17.865  INFO 1 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 3000 (http) with context path ''
+2025-05-29 20:09:17.898  INFO 1 --- [main] c.e.j.as.personapp.PersonAppRestApi      : Started PersonAppRestApi in 14.438 seconds (JVM running for 15.676)
+2025-05-29 20:09:17.906  INFO 1 --- [main] c.e.j.as.personapp.PersonAppRestApi      : Started PersonAppRestApi OK
+2025-05-29 20:14:55.879  INFO 1 --- [http-nio-3000-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-05-29 20:14:55.881  INFO 1 --- [http-nio-3000-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2025-05-29 20:14:55.885  INFO 1 --- [http-nio-3000-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 3 ms
+2025-05-29 20:14:56.611  INFO 1 --- [http-nio-3000-exec-10] o.springdoc.api.AbstractOpenApiResource  : Init duration for springdoc-openapi is: 270 ms
+2025-05-29 20:17:29.887  INFO 1 --- [http-nio-3000-exec-5] c.e.j.a.p.c.PersonaControllerV1          : esta en el metodo crearTarea en el controller del api
+2025-05-29 20:17:29.889  WARN 1 --- [http-nio-3000-exec-5] c.e.j.a.p.a.PersonaInputAdapterRest      : Invalid database option: string
+2025-05-29 20:20:13.317  INFO 1 --- [http-nio-3000-exec-8] c.e.j.a.p.c.PersonaControllerV1          : esta en el metodo crearTarea en el controller del api
+2025-05-29 20:20:13.329 ERROR 1 --- [http-nio-3000-exec-8] o.a.c.c.C.[.[.[/].[dispatcherServlet]    : Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed; nested exception is java.lang.NullPointerException: gender is marked non-null but is null] with root cause
+
+java.lang.NullPointerException: gender is marked non-null but is null
+	at co.edu.javeriana.as.personapp.mongo.mapper.PersonaMapperMongo.validateGenero(PersonaMapperMongo.java:40) ~[mongo-output-adapter-0.0.1-SNAPSHOT.jar!/:na]
+	at co.edu.javeriana.as.personapp.mongo.mapper.PersonaMapperMongo.fromDomainToAdapter(PersonaMapperMongo.java:33) ~[mongo-output-adapter-0.0.1-SNAPSHOT.jar!/:na]
+	at co.edu.javeriana.as.personapp.mongo.adapter.PersonOutputAdapterMongo.save(PersonOutputAdapterMongo.java:32) ~[mongo-output-adapter-0.0.1-SNAPSHOT.jar!/:na]
+	at co.edu.javeriana.as.personapp.application.usecase.PersonUseCase.create(PersonUseCase.java:35) ~[application-0.0.1-SNAPSHOT.jar!/:na]
+	at co.edu.javeriana.as.personapp.adapter.PersonaInputAdapterRest.crearPersona(PersonaInputAdapterRest.java:72) ~[classes!/:na]
+	at co.edu.javeriana.as.personapp.controller.PersonaControllerV1.crearPersona(PersonaControllerV1.java:40) ~[classes!/:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[na:na]
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:569) ~[na:na]
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:205) ~[spring-web-5.3.27.jar!/:5.3.27]
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:150) ~[spring-web-5.3.27.jar!/:5.3.27]
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:117) ~[spring-webmvc-5.3.27.jar!/:5.3.27]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:895) ~[spring-webmvc-5.3.27.jar!/:5.3.27]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:808) ~[spring-webmvc-5.3.27.jar!/:5.3.27]
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87) ~[spring-webmvc-5.3.27.jar!/:5.3.27]
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1072) ~[spring-webmvc-5.3.27.jar!/:5.3.27]
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:965) ~[spring-webmvc-5.3.27.jar!/:5.3.27]
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006) ~[spring-webmvc-5.3.27.jar!/:5.3.27]
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:909) ~[spring-webmvc-5.3.27.jar!/:5.3.27]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:555) ~[tomcat-embed-core-9.0.74.jar!/:na]
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883) ~[spring-webmvc-5.3.27.jar!/:5.3.27]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:623) ~[tomcat-embed-core-9.0.74.jar!/:na]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:209) ~[tomcat-embed-core-9.0.74.jar!/:na]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153) ~[tomcat-embed-core-9.0.74.jar!/:na]
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51) ~[tomcat-embed-websocket-9.0.74.jar!/:na]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:178) ~[tomcat-embed-core-9.0.74.jar!/:na]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153) ~[tomcat-embed-core-9.0.74.jar!/:na]
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100) ~[spring-web-5.3.27.jar!/:5.3.27]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117) ~[spring-web-5.3.27.jar!/:5.3.27]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:178) ~[tomcat-embed-core-9.0.74.jar!/:na]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153) ~[tomcat-embed-core-9.0.74.jar!/:na]
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93) ~[spring-web-5.3.27.jar!/:5.3.27]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117) ~[spring-web-5.3.27.jar!/:5.3.27]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:178) ~[tomcat-embed-core-9.0.74.jar!/:na]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153) ~[tomcat-embed-core-9.0.74.jar!/:na]
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201) ~[spring-web-5.3.27.jar!/:5.3.27]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117) ~[spring-web-5.3.27.jar!/:5.3.27]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:178) ~[tomcat-embed-core-9.0.74.jar!/:na]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153) ~[tomcat-embed-core-9.0.74.jar!/:na]
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:167) ~[tomcat-embed-core-9.0.74.jar!/:na]
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90) ~[tomcat-embed-core-9.0.74.jar!/:na]
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:481) ~[tomcat-embed-core-9.0.74.jar!/:na]
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:130) ~[tomcat-embed-core-9.0.74.jar!/:na]
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93) ~[tomcat-embed-core-9.0.74.jar!/:na]
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74) ~[tomcat-embed-core-9.0.74.jar!/:na]
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343) ~[tomcat-embed-core-9.0.74.jar!/:na]
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:389) ~[tomcat-embed-core-9.0.74.jar!/:na]
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63) ~[tomcat-embed-core-9.0.74.jar!/:na]
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:926) ~[tomcat-embed-core-9.0.74.jar!/:na]
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1791) ~[tomcat-embed-core-9.0.74.jar!/:na]
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52) ~[tomcat-embed-core-9.0.74.jar!/:na]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191) ~[tomcat-embed-core-9.0.74.jar!/:na]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659) ~[tomcat-embed-core-9.0.74.jar!/:na]
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61) ~[tomcat-embed-core-9.0.74.jar!/:na]
+	at java.base/java.lang.Thread.run(Thread.java:840) ~[na:na]
+
+2025-05-29 20:30:12.820  INFO 1 --- [http-nio-3000-exec-9] c.e.j.a.p.c.PersonaControllerV1          : esta en el metodo crearTarea en el controller del api
+2025-05-29 20:30:12.822  WARN 1 --- [http-nio-3000-exec-9] c.e.j.a.p.a.PersonaInputAdapterRest      : Invalid database option: MongoDB
+2025-05-29 20:30:15.052  INFO 1 --- [http-nio-3000-exec-10] c.e.j.a.p.c.PersonaControllerV1          : esta en el metodo crearTarea en el controller del api
+2025-05-29 20:30:15.053  WARN 1 --- [http-nio-3000-exec-10] c.e.j.a.p.a.PersonaInputAdapterRest      : Invalid database option: MongoDB
+2025-05-29 20:35:27.240  INFO 1 --- [http-nio-3000-exec-4] c.e.j.a.p.c.PersonaControllerV1          : Into personas REST API
+2025-05-29 20:35:27.242  INFO 1 --- [http-nio-3000-exec-4] c.e.j.a.p.a.PersonaInputAdapterRest      : Into historial PersonaEntity in Input Adapter
+2025-05-29 20:35:27.243  WARN 1 --- [http-nio-3000-exec-4] c.e.j.a.p.a.PersonaInputAdapterRest      : Invalid database option: MONGODB
+2025-05-29 20:39:20.316  INFO 1 --- [http-nio-3000-exec-3] c.e.j.a.p.c.PersonaControllerV1          : Into personas REST API
+2025-05-29 20:39:20.318  INFO 1 --- [http-nio-3000-exec-3] c.e.j.a.p.a.PersonaInputAdapterRest      : Into historial PersonaEntity in Input Adapter
+2025-05-29 20:39:20.319  WARN 1 --- [http-nio-3000-exec-3] c.e.j.a.p.a.PersonaInputAdapterRest      : Invalid database option: MONGODB
+2025-05-29 21:35:04.895  INFO 1 --- [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-05-29 21:35:04.927  INFO 1 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2025-05-29 21:35:04.944  INFO 1 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2025-05-29 21:35:04.962  INFO 1 --- [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-05-29 21:35:04.990  INFO 1 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2025-05-29 21:35:05.004  INFO 1 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2025-05-29 21:36:31.279  INFO 1 --- [main] c.e.j.as.personapp.PersonAppRestApi      : Starting PersonAppRestApi using Java 17.0.15 on 5d29af767b2c with PID 1 (/app/app.jar started by root in /app)
+2025-05-29 21:36:31.284  INFO 1 --- [main] c.e.j.as.personapp.PersonAppRestApi      : No active profile set, falling back to 1 default profile: "default"
+2025-05-29 21:36:31.289  INFO 1 --- [main] c.e.j.as.personapp.PersonAppRestApi      : Starting PersonAppRestApi using Java 17.0.15 on 79f7f2b1487b with PID 1 (/app/app.jar started by root in /app)
+2025-05-29 21:36:31.295  INFO 1 --- [main] c.e.j.as.personapp.PersonAppRestApi      : No active profile set, falling back to 1 default profile: "default"
+2025-05-29 21:36:32.489  INFO 1 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode
+2025-05-29 21:36:32.492  INFO 1 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-05-29 21:36:32.496  INFO 1 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode
+2025-05-29 21:36:32.499  INFO 1 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-05-29 21:36:32.548  INFO 1 --- [main] .RepositoryConfigurationExtensionSupport : Spring Data JPA - Could not safely identify store assignment for repository candidate interface co.edu.javeriana.as.personapp.mongo.repository.PersonaRepositoryMongo; If you want this repository to be a JPA repository, consider annotating your entities with one of these annotations: javax.persistence.Entity, javax.persistence.MappedSuperclass (preferred), or consider extending one of the following types with your repository: org.springframework.data.jpa.repository.JpaRepository
+2025-05-29 21:36:32.557  INFO 1 --- [main] .RepositoryConfigurationExtensionSupport : Spring Data JPA - Could not safely identify store assignment for repository candidate interface co.edu.javeriana.as.personapp.mongo.repository.PersonaRepositoryMongo; If you want this repository to be a JPA repository, consider annotating your entities with one of these annotations: javax.persistence.Entity, javax.persistence.MappedSuperclass (preferred), or consider extending one of the following types with your repository: org.springframework.data.jpa.repository.JpaRepository
+2025-05-29 21:36:32.568  INFO 1 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 64 ms. Found 1 JPA repository interfaces.
+2025-05-29 21:36:32.572  INFO 1 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 65 ms. Found 1 JPA repository interfaces.
+2025-05-29 21:36:32.608  INFO 1 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode
+2025-05-29 21:36:32.609  INFO 1 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data MongoDB repositories in DEFAULT mode.
+2025-05-29 21:36:32.618  INFO 1 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode
+2025-05-29 21:36:32.619  INFO 1 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data MongoDB repositories in DEFAULT mode.
+2025-05-29 21:36:32.621  INFO 1 --- [main] .RepositoryConfigurationExtensionSupport : Spring Data MongoDB - Could not safely identify store assignment for repository candidate interface co.edu.javeriana.as.personapp.mariadb.repository.PersonaRepositoryMaria; If you want this repository to be a MongoDB repository, consider annotating your entities with one of these annotations: org.springframework.data.mongodb.core.mapping.Document (preferred), or consider extending one of the following types with your repository: org.springframework.data.mongodb.repository.MongoRepository
+2025-05-29 21:36:32.627  INFO 1 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 16 ms. Found 1 MongoDB repository interfaces.
+2025-05-29 21:36:32.633  INFO 1 --- [main] .RepositoryConfigurationExtensionSupport : Spring Data MongoDB - Could not safely identify store assignment for repository candidate interface co.edu.javeriana.as.personapp.mariadb.repository.PersonaRepositoryMaria; If you want this repository to be a MongoDB repository, consider annotating your entities with one of these annotations: org.springframework.data.mongodb.core.mapping.Document (preferred), or consider extending one of the following types with your repository: org.springframework.data.mongodb.repository.MongoRepository
+2025-05-29 21:36:32.640  INFO 1 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 20 ms. Found 1 MongoDB repository interfaces.
+2025-05-29 21:36:33.552  INFO 1 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 3000 (http)
+2025-05-29 21:36:33.552  INFO 1 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 3000 (http)
+2025-05-29 21:36:33.574  INFO 1 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-05-29 21:36:33.575  INFO 1 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-05-29 21:36:33.577  INFO 1 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.74]
+2025-05-29 21:36:33.578  INFO 1 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.74]
+2025-05-29 21:36:33.711  INFO 1 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-05-29 21:36:33.713  INFO 1 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2294 ms
+2025-05-29 21:36:33.715  INFO 1 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-05-29 21:36:33.717  INFO 1 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2314 ms
+2025-05-29 21:36:34.087  INFO 1 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-05-29 21:36:34.107  INFO 1 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-05-29 21:36:34.191  INFO 1 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.6.15.Final
+2025-05-29 21:36:34.210  INFO 1 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.6.15.Final
+2025-05-29 21:36:34.378  INFO 1 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2025-05-29 21:36:34.383  INFO 1 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2025-05-29 21:36:34.508  INFO 1 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2025-05-29 21:36:34.528  INFO 1 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2025-05-29 21:36:34.673  INFO 1 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2025-05-29 21:36:34.677  INFO 1 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2025-05-29 21:36:34.719  INFO 1 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MariaDB53Dialect
+2025-05-29 21:36:34.719  INFO 1 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MariaDB53Dialect
+2025-05-29 21:36:35.649  INFO 1 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2025-05-29 21:36:35.660  INFO 1 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2025-05-29 21:36:35.769  INFO 1 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-05-29 21:36:35.800  INFO 1 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-05-29 21:36:36.423  INFO 1 --- [main] org.mongodb.driver.client                : MongoClient with metadata {"driver": {"name": "mongo-java-driver|sync|spring-boot", "version": "4.6.1"}, "os": {"type": "Linux", "name": "Linux", "architecture": "amd64", "version": "5.15.167.4-microsoft-standard-WSL2"}, "platform": "Java/Eclipse Adoptium/17.0.15+6"} created with settings MongoClientSettings{readPreference=primary, writeConcern=WriteConcern{w=null, wTimeout=null ms, journal=null}, retryWrites=true, retryReads=true, readConcern=ReadConcern{level=null}, credential=MongoCredential{mechanism=null, userName='persona_db', source='admin', password=<hidden>, mechanismProperties=<hidden>}, streamFactoryFactory=null, commandListeners=[], codecRegistry=ProvidersCodecRegistry{codecProviders=[ValueCodecProvider{}, BsonValueCodecProvider{}, DBRefCodecProvider{}, DBObjectCodecProvider{}, DocumentCodecProvider{}, IterableCodecProvider{}, MapCodecProvider{}, GeoJsonCodecProvider{}, GridFSFileCodecProvider{}, Jsr310CodecProvider{}, JsonObjectCodecProvider{}, BsonCodecProvider{}, EnumCodecProvider{}, com.mongodb.Jep395RecordCodecProvider@64f16277]}, clusterSettings={hosts=[mongodb:27017], srvServiceName=mongodb, mode=SINGLE, requiredClusterType=UNKNOWN, requiredReplicaSetName='null', serverSelector='null', clusterListeners='[]', serverSelectionTimeout='30000 ms', localThreshold='30000 ms'}, socketSettings=SocketSettings{connectTimeoutMS=10000, readTimeoutMS=0, receiveBufferSize=0, sendBufferSize=0}, heartbeatSocketSettings=SocketSettings{connectTimeoutMS=10000, readTimeoutMS=10000, receiveBufferSize=0, sendBufferSize=0}, connectionPoolSettings=ConnectionPoolSettings{maxSize=100, minSize=0, maxWaitTimeMS=120000, maxConnectionLifeTimeMS=0, maxConnectionIdleTimeMS=0, maintenanceInitialDelayMS=0, maintenanceFrequencyMS=60000, connectionPoolListeners=[], maxConnecting=2}, serverSettings=ServerSettings{heartbeatFrequencyMS=10000, minHeartbeatFrequencyMS=500, serverListeners='[]', serverMonitorListeners='[]'}, sslSettings=SslSettings{enabled=false, invalidHostNameAllowed=false, context=null}, applicationName='null', compressorList=[], uuidRepresentation=JAVA_LEGACY, serverApi=null, autoEncryptionSettings=null, contextProvider=null}
+2025-05-29 21:36:36.457  INFO 1 --- [cluster-ClusterId{value='6838d364c99dab0474f13d08', description='null'}-mongodb:27017] org.mongodb.driver.connection            : Opened connection [connectionId{localValue:2, serverValue:6}] to mongodb:27017
+2025-05-29 21:36:36.458  INFO 1 --- [cluster-rtt-ClusterId{value='6838d364c99dab0474f13d08', description='null'}-mongodb:27017] org.mongodb.driver.connection            : Opened connection [connectionId{localValue:1, serverValue:5}] to mongodb:27017
+2025-05-29 21:36:36.460  INFO 1 --- [cluster-ClusterId{value='6838d364c99dab0474f13d08', description='null'}-mongodb:27017] org.mongodb.driver.cluster               : Monitor thread successfully connected to server with description ServerDescription{address=mongodb:27017, type=STANDALONE, state=CONNECTED, ok=true, minWireVersion=0, maxWireVersion=25, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=42036458}
+2025-05-29 21:36:36.466  INFO 1 --- [main] org.mongodb.driver.client                : MongoClient with metadata {"driver": {"name": "mongo-java-driver|sync|spring-boot", "version": "4.6.1"}, "os": {"type": "Linux", "name": "Linux", "architecture": "amd64", "version": "5.15.167.4-microsoft-standard-WSL2"}, "platform": "Java/Eclipse Adoptium/17.0.15+6"} created with settings MongoClientSettings{readPreference=primary, writeConcern=WriteConcern{w=null, wTimeout=null ms, journal=null}, retryWrites=true, retryReads=true, readConcern=ReadConcern{level=null}, credential=MongoCredential{mechanism=null, userName='persona_db', source='admin', password=<hidden>, mechanismProperties=<hidden>}, streamFactoryFactory=null, commandListeners=[], codecRegistry=ProvidersCodecRegistry{codecProviders=[ValueCodecProvider{}, BsonValueCodecProvider{}, DBRefCodecProvider{}, DBObjectCodecProvider{}, DocumentCodecProvider{}, IterableCodecProvider{}, MapCodecProvider{}, GeoJsonCodecProvider{}, GridFSFileCodecProvider{}, Jsr310CodecProvider{}, JsonObjectCodecProvider{}, BsonCodecProvider{}, EnumCodecProvider{}, com.mongodb.Jep395RecordCodecProvider@64f16277]}, clusterSettings={hosts=[mongodb:27017], srvServiceName=mongodb, mode=SINGLE, requiredClusterType=UNKNOWN, requiredReplicaSetName='null', serverSelector='null', clusterListeners='[]', serverSelectionTimeout='30000 ms', localThreshold='30000 ms'}, socketSettings=SocketSettings{connectTimeoutMS=10000, readTimeoutMS=0, receiveBufferSize=0, sendBufferSize=0}, heartbeatSocketSettings=SocketSettings{connectTimeoutMS=10000, readTimeoutMS=10000, receiveBufferSize=0, sendBufferSize=0}, connectionPoolSettings=ConnectionPoolSettings{maxSize=100, minSize=0, maxWaitTimeMS=120000, maxConnectionLifeTimeMS=0, maxConnectionIdleTimeMS=0, maintenanceInitialDelayMS=0, maintenanceFrequencyMS=60000, connectionPoolListeners=[], maxConnecting=2}, serverSettings=ServerSettings{heartbeatFrequencyMS=10000, minHeartbeatFrequencyMS=500, serverListeners='[]', serverMonitorListeners='[]'}, sslSettings=SslSettings{enabled=false, invalidHostNameAllowed=false, context=null}, applicationName='null', compressorList=[], uuidRepresentation=JAVA_LEGACY, serverApi=null, autoEncryptionSettings=null, contextProvider=null}
+2025-05-29 21:36:36.489  INFO 1 --- [cluster-rtt-ClusterId{value='6838d364d2d7452bedab1060', description='null'}-mongodb:27017] org.mongodb.driver.connection            : Opened connection [connectionId{localValue:2, serverValue:7}] to mongodb:27017
+2025-05-29 21:36:36.493  INFO 1 --- [cluster-ClusterId{value='6838d364d2d7452bedab1060', description='null'}-mongodb:27017] org.mongodb.driver.connection            : Opened connection [connectionId{localValue:1, serverValue:8}] to mongodb:27017
+2025-05-29 21:36:36.495  INFO 1 --- [cluster-ClusterId{value='6838d364d2d7452bedab1060', description='null'}-mongodb:27017] org.mongodb.driver.cluster               : Monitor thread successfully connected to server with description ServerDescription{address=mongodb:27017, type=STANDALONE, state=CONNECTED, ok=true, minWireVersion=0, maxWireVersion=25, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=41675151}
+2025-05-29 21:36:38.942  INFO 1 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 3000 (http) with context path ''
+2025-05-29 21:36:38.975  INFO 1 --- [main] c.e.j.as.personapp.PersonAppRestApi      : Started PersonAppRestApi in 8.644 seconds (JVM running for 9.374)
+2025-05-29 21:36:38.985  INFO 1 --- [main] c.e.j.as.personapp.PersonAppRestApi      : Started PersonAppRestApi OK
+2025-05-29 21:36:38.992  INFO 1 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 3000 (http) with context path ''
+2025-05-29 21:36:39.021  INFO 1 --- [main] c.e.j.as.personapp.PersonAppRestApi      : Started PersonAppRestApi in 8.695 seconds (JVM running for 9.419)
+2025-05-29 21:36:39.030  INFO 1 --- [main] c.e.j.as.personapp.PersonAppRestApi      : Started PersonAppRestApi OK
+2025-05-29 21:37:02.291  INFO 1 --- [http-nio-3000-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-05-29 21:37:02.292  INFO 1 --- [http-nio-3000-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2025-05-29 21:37:02.294  INFO 1 --- [http-nio-3000-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2025-05-29 21:37:03.121  INFO 1 --- [http-nio-3000-exec-10] o.springdoc.api.AbstractOpenApiResource  : Init duration for springdoc-openapi is: 342 ms
+2025-05-29 21:39:58.229  INFO 1 --- [http-nio-3000-exec-4] c.e.j.a.p.c.PersonaControllerV1          : esta en el metodo crearTarea en el controller del api
+2025-05-29 21:40:34.677  INFO 1 --- [http-nio-3000-exec-6] c.e.j.a.p.c.PersonaControllerV1          : esta en el metodo crearTarea en el controller del api
+2025-05-29 21:43:46.167  INFO 1 --- [http-nio-3000-exec-8] c.e.j.a.p.c.PersonaControllerV1          : esta en el metodo crearTarea en el controller del api
+2025-05-29 21:43:46.329  INFO 1 --- [http-nio-3000-exec-8] org.mongodb.driver.connection            : Opened connection [connectionId{localValue:3, serverValue:173}] to mongodb:27017
+2025-05-29 21:46:41.653  INFO 1 --- [http-nio-3000-exec-10] c.e.j.a.p.c.PersonaControllerV1          : Into personas REST API
+2025-05-29 21:46:41.654  INFO 1 --- [http-nio-3000-exec-10] c.e.j.a.p.a.PersonaInputAdapterRest      : Into historial PersonaEntity in Input Adapter
+2025-05-29 21:46:41.655  WARN 1 --- [http-nio-3000-exec-10] c.e.j.a.p.a.PersonaInputAdapterRest      : Invalid database option: MONGODB
+2025-05-29 21:51:17.164  INFO 1 --- [http-nio-3000-exec-5] c.e.j.a.p.c.PersonaControllerV1          : Into personas REST API
+2025-05-29 21:51:17.165  INFO 1 --- [http-nio-3000-exec-5] c.e.j.a.p.a.PersonaInputAdapterRest      : Into historial PersonaEntity in Input Adapter
+2025-05-29 21:51:17.166  INFO 1 --- [http-nio-3000-exec-5] c.e.j.a.p.a.usecase.PersonUseCase        : Output: class co.edu.javeriana.as.personapp.mongo.adapter.PersonOutputAdapterMongo
+2025-05-29 22:35:59.810  INFO 1 --- [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-05-29 22:35:59.830  INFO 1 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2025-05-29 22:35:59.840  INFO 1 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2025-05-29 22:35:59.837  INFO 1 --- [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-05-29 22:35:59.856  INFO 1 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2025-05-29 22:35:59.867  INFO 1 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2025-05-29 22:37:17.890  INFO 1 --- [main] c.e.j.as.personapp.PersonAppRestApi      : Starting PersonAppRestApi using Java 17.0.15 on 10e3e19df2af with PID 1 (/app/app.jar started by root in /app)
+2025-05-29 22:37:17.893  INFO 1 --- [main] c.e.j.as.personapp.PersonAppRestApi      : Starting PersonAppRestApi using Java 17.0.15 on 726e2fc433c8 with PID 1 (/app/app.jar started by root in /app)
+2025-05-29 22:37:17.894  INFO 1 --- [main] c.e.j.as.personapp.PersonAppRestApi      : No active profile set, falling back to 1 default profile: "default"
+2025-05-29 22:37:17.902  INFO 1 --- [main] c.e.j.as.personapp.PersonAppRestApi      : No active profile set, falling back to 1 default profile: "default"
+2025-05-29 22:37:19.233  INFO 1 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode
+2025-05-29 22:37:19.237  INFO 1 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-05-29 22:37:19.240  INFO 1 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode
+2025-05-29 22:37:19.242  INFO 1 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-05-29 22:37:19.295  INFO 1 --- [main] .RepositoryConfigurationExtensionSupport : Spring Data JPA - Could not safely identify store assignment for repository candidate interface co.edu.javeriana.as.personapp.mongo.repository.PersonaRepositoryMongo; If you want this repository to be a JPA repository, consider annotating your entities with one of these annotations: javax.persistence.Entity, javax.persistence.MappedSuperclass (preferred), or consider extending one of the following types with your repository: org.springframework.data.jpa.repository.JpaRepository
+2025-05-29 22:37:19.299  INFO 1 --- [main] .RepositoryConfigurationExtensionSupport : Spring Data JPA - Could not safely identify store assignment for repository candidate interface co.edu.javeriana.as.personapp.mongo.repository.PersonaRepositoryMongo; If you want this repository to be a JPA repository, consider annotating your entities with one of these annotations: javax.persistence.Entity, javax.persistence.MappedSuperclass (preferred), or consider extending one of the following types with your repository: org.springframework.data.jpa.repository.JpaRepository
+2025-05-29 22:37:19.314  INFO 1 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 63 ms. Found 1 JPA repository interfaces.
+2025-05-29 22:37:19.315  INFO 1 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 66 ms. Found 1 JPA repository interfaces.
+2025-05-29 22:37:19.362  INFO 1 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode
+2025-05-29 22:37:19.363  INFO 1 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode
+2025-05-29 22:37:19.363  INFO 1 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data MongoDB repositories in DEFAULT mode.
+2025-05-29 22:37:19.365  INFO 1 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data MongoDB repositories in DEFAULT mode.
+2025-05-29 22:37:19.377  INFO 1 --- [main] .RepositoryConfigurationExtensionSupport : Spring Data MongoDB - Could not safely identify store assignment for repository candidate interface co.edu.javeriana.as.personapp.mariadb.repository.PersonaRepositoryMaria; If you want this repository to be a MongoDB repository, consider annotating your entities with one of these annotations: org.springframework.data.mongodb.core.mapping.Document (preferred), or consider extending one of the following types with your repository: org.springframework.data.mongodb.repository.MongoRepository
+2025-05-29 22:37:19.380  INFO 1 --- [main] .RepositoryConfigurationExtensionSupport : Spring Data MongoDB - Could not safely identify store assignment for repository candidate interface co.edu.javeriana.as.personapp.mariadb.repository.PersonaRepositoryMaria; If you want this repository to be a MongoDB repository, consider annotating your entities with one of these annotations: org.springframework.data.mongodb.core.mapping.Document (preferred), or consider extending one of the following types with your repository: org.springframework.data.mongodb.repository.MongoRepository
+2025-05-29 22:37:19.387  INFO 1 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 22 ms. Found 1 MongoDB repository interfaces.
+2025-05-29 22:37:19.390  INFO 1 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 24 ms. Found 1 MongoDB repository interfaces.
+2025-05-29 22:37:20.257  INFO 1 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 3000 (http)
+2025-05-29 22:37:20.275  INFO 1 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-05-29 22:37:20.275  INFO 1 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 3000 (http)
+2025-05-29 22:37:20.278  INFO 1 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.74]
+2025-05-29 22:37:20.298  INFO 1 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-05-29 22:37:20.300  INFO 1 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.74]
+2025-05-29 22:37:20.396  INFO 1 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-05-29 22:37:20.396  INFO 1 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-05-29 22:37:20.397  INFO 1 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2325 ms
+2025-05-29 22:37:20.397  INFO 1 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2367 ms
+2025-05-29 22:37:20.768  INFO 1 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-05-29 22:37:20.805  INFO 1 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-05-29 22:37:20.872  INFO 1 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.6.15.Final
+2025-05-29 22:37:20.913  INFO 1 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.6.15.Final
+2025-05-29 22:37:21.085  INFO 1 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2025-05-29 22:37:21.103  INFO 1 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2025-05-29 22:37:21.197  INFO 1 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2025-05-29 22:37:21.215  INFO 1 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2025-05-29 22:37:21.357  INFO 1 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2025-05-29 22:37:21.359  INFO 1 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2025-05-29 22:37:21.397  INFO 1 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MariaDB53Dialect
+2025-05-29 22:37:21.398  INFO 1 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MariaDB53Dialect
+2025-05-29 22:37:22.345  INFO 1 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2025-05-29 22:37:22.347  INFO 1 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2025-05-29 22:37:22.465  INFO 1 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-05-29 22:37:22.471  INFO 1 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-05-29 22:37:23.133  INFO 1 --- [main] org.mongodb.driver.client                : MongoClient with metadata {"driver": {"name": "mongo-java-driver|sync|spring-boot", "version": "4.6.1"}, "os": {"type": "Linux", "name": "Linux", "architecture": "amd64", "version": "5.15.167.4-microsoft-standard-WSL2"}, "platform": "Java/Eclipse Adoptium/17.0.15+6"} created with settings MongoClientSettings{readPreference=primary, writeConcern=WriteConcern{w=null, wTimeout=null ms, journal=null}, retryWrites=true, retryReads=true, readConcern=ReadConcern{level=null}, credential=MongoCredential{mechanism=null, userName='persona_db', source='admin', password=<hidden>, mechanismProperties=<hidden>}, streamFactoryFactory=null, commandListeners=[], codecRegistry=ProvidersCodecRegistry{codecProviders=[ValueCodecProvider{}, BsonValueCodecProvider{}, DBRefCodecProvider{}, DBObjectCodecProvider{}, DocumentCodecProvider{}, IterableCodecProvider{}, MapCodecProvider{}, GeoJsonCodecProvider{}, GridFSFileCodecProvider{}, Jsr310CodecProvider{}, JsonObjectCodecProvider{}, BsonCodecProvider{}, EnumCodecProvider{}, com.mongodb.Jep395RecordCodecProvider@7be7e15]}, clusterSettings={hosts=[mongodb:27017], srvServiceName=mongodb, mode=SINGLE, requiredClusterType=UNKNOWN, requiredReplicaSetName='null', serverSelector='null', clusterListeners='[]', serverSelectionTimeout='30000 ms', localThreshold='30000 ms'}, socketSettings=SocketSettings{connectTimeoutMS=10000, readTimeoutMS=0, receiveBufferSize=0, sendBufferSize=0}, heartbeatSocketSettings=SocketSettings{connectTimeoutMS=10000, readTimeoutMS=10000, receiveBufferSize=0, sendBufferSize=0}, connectionPoolSettings=ConnectionPoolSettings{maxSize=100, minSize=0, maxWaitTimeMS=120000, maxConnectionLifeTimeMS=0, maxConnectionIdleTimeMS=0, maintenanceInitialDelayMS=0, maintenanceFrequencyMS=60000, connectionPoolListeners=[], maxConnecting=2}, serverSettings=ServerSettings{heartbeatFrequencyMS=10000, minHeartbeatFrequencyMS=500, serverListeners='[]', serverMonitorListeners='[]'}, sslSettings=SslSettings{enabled=false, invalidHostNameAllowed=false, context=null}, applicationName='null', compressorList=[], uuidRepresentation=JAVA_LEGACY, serverApi=null, autoEncryptionSettings=null, contextProvider=null}
+2025-05-29 22:37:23.143  INFO 1 --- [main] org.mongodb.driver.client                : MongoClient with metadata {"driver": {"name": "mongo-java-driver|sync|spring-boot", "version": "4.6.1"}, "os": {"type": "Linux", "name": "Linux", "architecture": "amd64", "version": "5.15.167.4-microsoft-standard-WSL2"}, "platform": "Java/Eclipse Adoptium/17.0.15+6"} created with settings MongoClientSettings{readPreference=primary, writeConcern=WriteConcern{w=null, wTimeout=null ms, journal=null}, retryWrites=true, retryReads=true, readConcern=ReadConcern{level=null}, credential=MongoCredential{mechanism=null, userName='persona_db', source='admin', password=<hidden>, mechanismProperties=<hidden>}, streamFactoryFactory=null, commandListeners=[], codecRegistry=ProvidersCodecRegistry{codecProviders=[ValueCodecProvider{}, BsonValueCodecProvider{}, DBRefCodecProvider{}, DBObjectCodecProvider{}, DocumentCodecProvider{}, IterableCodecProvider{}, MapCodecProvider{}, GeoJsonCodecProvider{}, GridFSFileCodecProvider{}, Jsr310CodecProvider{}, JsonObjectCodecProvider{}, BsonCodecProvider{}, EnumCodecProvider{}, com.mongodb.Jep395RecordCodecProvider@3672276e]}, clusterSettings={hosts=[mongodb:27017], srvServiceName=mongodb, mode=SINGLE, requiredClusterType=UNKNOWN, requiredReplicaSetName='null', serverSelector='null', clusterListeners='[]', serverSelectionTimeout='30000 ms', localThreshold='30000 ms'}, socketSettings=SocketSettings{connectTimeoutMS=10000, readTimeoutMS=0, receiveBufferSize=0, sendBufferSize=0}, heartbeatSocketSettings=SocketSettings{connectTimeoutMS=10000, readTimeoutMS=10000, receiveBufferSize=0, sendBufferSize=0}, connectionPoolSettings=ConnectionPoolSettings{maxSize=100, minSize=0, maxWaitTimeMS=120000, maxConnectionLifeTimeMS=0, maxConnectionIdleTimeMS=0, maintenanceInitialDelayMS=0, maintenanceFrequencyMS=60000, connectionPoolListeners=[], maxConnecting=2}, serverSettings=ServerSettings{heartbeatFrequencyMS=10000, minHeartbeatFrequencyMS=500, serverListeners='[]', serverMonitorListeners='[]'}, sslSettings=SslSettings{enabled=false, invalidHostNameAllowed=false, context=null}, applicationName='null', compressorList=[], uuidRepresentation=JAVA_LEGACY, serverApi=null, autoEncryptionSettings=null, contextProvider=null}
+2025-05-29 22:37:23.155  INFO 1 --- [cluster-ClusterId{value='6838e1a3b1489c33971aa5b2', description='null'}-mongodb:27017] org.mongodb.driver.connection            : Opened connection [connectionId{localValue:2, serverValue:5}] to mongodb:27017
+2025-05-29 22:37:23.157  INFO 1 --- [cluster-rtt-ClusterId{value='6838e1a3b1489c33971aa5b2', description='null'}-mongodb:27017] org.mongodb.driver.connection            : Opened connection [connectionId{localValue:1, serverValue:6}] to mongodb:27017
+2025-05-29 22:37:23.165  INFO 1 --- [cluster-ClusterId{value='6838e1a3b1489c33971aa5b2', description='null'}-mongodb:27017] org.mongodb.driver.cluster               : Monitor thread successfully connected to server with description ServerDescription{address=mongodb:27017, type=STANDALONE, state=CONNECTED, ok=true, minWireVersion=0, maxWireVersion=25, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=38905620}
+2025-05-29 22:37:23.169  INFO 1 --- [cluster-ClusterId{value='6838e1a3eda12033f03d40eb', description='null'}-mongodb:27017] org.mongodb.driver.connection            : Opened connection [connectionId{localValue:1, serverValue:8}] to mongodb:27017
+2025-05-29 22:37:23.169  INFO 1 --- [cluster-rtt-ClusterId{value='6838e1a3eda12033f03d40eb', description='null'}-mongodb:27017] org.mongodb.driver.connection            : Opened connection [connectionId{localValue:2, serverValue:7}] to mongodb:27017
+2025-05-29 22:37:23.175  INFO 1 --- [cluster-ClusterId{value='6838e1a3eda12033f03d40eb', description='null'}-mongodb:27017] org.mongodb.driver.cluster               : Monitor thread successfully connected to server with description ServerDescription{address=mongodb:27017, type=STANDALONE, state=CONNECTED, ok=true, minWireVersion=0, maxWireVersion=25, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=47109692}
+2025-05-29 22:37:25.030  INFO 1 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 3000 (http) with context path ''
+2025-05-29 22:37:25.058  INFO 1 --- [main] c.e.j.as.personapp.PersonAppRestApi      : Started PersonAppRestApi in 8.167 seconds (JVM running for 8.848)
+2025-05-29 22:37:25.064  INFO 1 --- [main] c.e.j.as.personapp.PersonAppRestApi      : Started PersonAppRestApi OK
+2025-05-29 22:37:25.080  INFO 1 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 3000 (http) with context path ''
+2025-05-29 22:37:25.101  INFO 1 --- [main] c.e.j.as.personapp.PersonAppRestApi      : Started PersonAppRestApi in 8.183 seconds (JVM running for 8.947)
+2025-05-29 22:37:25.107  INFO 1 --- [main] c.e.j.as.personapp.PersonAppRestApi      : Started PersonAppRestApi OK
+2025-05-29 22:39:14.428  INFO 1 --- [http-nio-3000-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-05-29 22:39:14.430  INFO 1 --- [http-nio-3000-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2025-05-29 22:39:14.437  INFO 1 --- [http-nio-3000-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 6 ms
+2025-05-29 22:39:15.189  INFO 1 --- [http-nio-3000-exec-9] o.springdoc.api.AbstractOpenApiResource  : Init duration for springdoc-openapi is: 270 ms
+2025-05-29 22:41:08.712  INFO 1 --- [http-nio-3000-exec-6] c.e.j.a.p.c.PersonaControllerV1          : PUT /persona/mongo/12345 — actualizarPersona
+2025-05-29 22:41:08.720 ERROR 1 --- [http-nio-3000-exec-6] o.a.c.c.C.[.[.[/].[dispatcherServlet]    : Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed; nested exception is java.lang.IllegalArgumentException: No enum constant co.edu.javeriana.as.personapp.domain.Gender.M] with root cause
+
+java.lang.IllegalArgumentException: No enum constant co.edu.javeriana.as.personapp.domain.Gender.M
+	at java.base/java.lang.Enum.valueOf(Enum.java:273) ~[na:na]
+	at co.edu.javeriana.as.personapp.domain.Gender.valueOf(Gender.java:3) ~[domain-0.0.1-SNAPSHOT.jar!/:na]
+	at co.edu.javeriana.as.personapp.mapper.PersonaMapperRest.fromAdapterToDomain(PersonaMapperRest.java:36) ~[classes!/:na]
+	at co.edu.javeriana.as.personapp.adapter.PersonaInputAdapterRest.edit(PersonaInputAdapterRest.java:97) ~[classes!/:na]
+	at co.edu.javeriana.as.personapp.controller.PersonaControllerV1.actualizarPersona(PersonaControllerV1.java:59) ~[classes!/:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[na:na]
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:569) ~[na:na]
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:205) ~[spring-web-5.3.27.jar!/:5.3.27]
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:150) ~[spring-web-5.3.27.jar!/:5.3.27]
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:117) ~[spring-webmvc-5.3.27.jar!/:5.3.27]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:895) ~[spring-webmvc-5.3.27.jar!/:5.3.27]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:808) ~[spring-webmvc-5.3.27.jar!/:5.3.27]
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87) ~[spring-webmvc-5.3.27.jar!/:5.3.27]
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1072) ~[spring-webmvc-5.3.27.jar!/:5.3.27]
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:965) ~[spring-webmvc-5.3.27.jar!/:5.3.27]
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006) ~[spring-webmvc-5.3.27.jar!/:5.3.27]
+	at org.springframework.web.servlet.FrameworkServlet.doPut(FrameworkServlet.java:920) ~[spring-webmvc-5.3.27.jar!/:5.3.27]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:558) ~[tomcat-embed-core-9.0.74.jar!/:na]
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883) ~[spring-webmvc-5.3.27.jar!/:5.3.27]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:623) ~[tomcat-embed-core-9.0.74.jar!/:na]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:209) ~[tomcat-embed-core-9.0.74.jar!/:na]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153) ~[tomcat-embed-core-9.0.74.jar!/:na]
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51) ~[tomcat-embed-websocket-9.0.74.jar!/:na]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:178) ~[tomcat-embed-core-9.0.74.jar!/:na]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153) ~[tomcat-embed-core-9.0.74.jar!/:na]
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100) ~[spring-web-5.3.27.jar!/:5.3.27]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117) ~[spring-web-5.3.27.jar!/:5.3.27]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:178) ~[tomcat-embed-core-9.0.74.jar!/:na]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153) ~[tomcat-embed-core-9.0.74.jar!/:na]
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93) ~[spring-web-5.3.27.jar!/:5.3.27]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117) ~[spring-web-5.3.27.jar!/:5.3.27]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:178) ~[tomcat-embed-core-9.0.74.jar!/:na]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153) ~[tomcat-embed-core-9.0.74.jar!/:na]
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201) ~[spring-web-5.3.27.jar!/:5.3.27]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117) ~[spring-web-5.3.27.jar!/:5.3.27]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:178) ~[tomcat-embed-core-9.0.74.jar!/:na]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153) ~[tomcat-embed-core-9.0.74.jar!/:na]
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:167) ~[tomcat-embed-core-9.0.74.jar!/:na]
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90) ~[tomcat-embed-core-9.0.74.jar!/:na]
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:481) ~[tomcat-embed-core-9.0.74.jar!/:na]
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:130) ~[tomcat-embed-core-9.0.74.jar!/:na]
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93) ~[tomcat-embed-core-9.0.74.jar!/:na]
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74) ~[tomcat-embed-core-9.0.74.jar!/:na]
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343) ~[tomcat-embed-core-9.0.74.jar!/:na]
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:389) ~[tomcat-embed-core-9.0.74.jar!/:na]
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63) ~[tomcat-embed-core-9.0.74.jar!/:na]
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:926) ~[tomcat-embed-core-9.0.74.jar!/:na]
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1791) ~[tomcat-embed-core-9.0.74.jar!/:na]
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52) ~[tomcat-embed-core-9.0.74.jar!/:na]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191) ~[tomcat-embed-core-9.0.74.jar!/:na]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659) ~[tomcat-embed-core-9.0.74.jar!/:na]
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61) ~[tomcat-embed-core-9.0.74.jar!/:na]
+	at java.base/java.lang.Thread.run(Thread.java:840) ~[na:na]
+
+2025-05-29 22:42:29.215  INFO 1 --- [http-nio-3000-exec-2] c.e.j.a.p.c.PersonaControllerV1          : Into personas REST API
+2025-05-29 22:42:29.216  INFO 1 --- [http-nio-3000-exec-2] c.e.j.a.p.a.PersonaInputAdapterRest      : Into historial PersonaEntity in Input Adapter
+2025-05-29 22:42:29.218  INFO 1 --- [http-nio-3000-exec-2] c.e.j.a.p.a.usecase.PersonUseCase        : Output: class co.edu.javeriana.as.personapp.mongo.adapter.PersonOutputAdapterMongo
+2025-05-29 22:42:29.344  INFO 1 --- [http-nio-3000-exec-2] org.mongodb.driver.connection            : Opened connection [connectionId{localValue:3, serverValue:125}] to mongodb:27017
+2025-05-29 22:44:35.065  INFO 1 --- [http-nio-3000-exec-7] c.e.j.a.p.c.PersonaControllerV1          : PUT /persona/MongoDB/12345 — actualizarPersona
+2025-05-29 22:49:21.495  INFO 1 --- [http-nio-3000-exec-9] c.e.j.a.p.c.PersonaControllerV1          : PUT /persona/MONGO/12345 — actualizarPersona
+2025-05-29 22:54:22.718  INFO 1 --- [http-nio-3000-exec-10] c.e.j.a.p.c.PersonaControllerV1          : Into personas REST API
+2025-05-29 22:54:22.719  INFO 1 --- [http-nio-3000-exec-10] c.e.j.a.p.a.PersonaInputAdapterRest      : Into historial PersonaEntity in Input Adapter
+2025-05-29 22:54:22.720  INFO 1 --- [http-nio-3000-exec-10] c.e.j.a.p.a.usecase.PersonUseCase        : Output: class co.edu.javeriana.as.personapp.mongo.adapter.PersonOutputAdapterMongo
+2025-05-29 22:55:47.559  INFO 1 --- [http-nio-3000-exec-1] c.e.j.a.p.c.PersonaControllerV1          : DELETE /persona/MONGO/12345 — borrarPersona
+2025-05-29 22:56:02.933  INFO 1 --- [http-nio-3000-exec-3] c.e.j.a.p.c.PersonaControllerV1          : Into personas REST API
+2025-05-29 22:56:02.934  INFO 1 --- [http-nio-3000-exec-3] c.e.j.a.p.a.PersonaInputAdapterRest      : Into historial PersonaEntity in Input Adapter
+2025-05-29 22:56:02.935  INFO 1 --- [http-nio-3000-exec-3] c.e.j.a.p.a.usecase.PersonUseCase        : Output: class co.edu.javeriana.as.personapp.mongo.adapter.PersonOutputAdapterMongo
+2025-05-29 22:59:08.629  INFO 1 --- [http-nio-3000-exec-6] c.e.j.a.p.c.PersonaControllerV1          : Into personas REST API
+2025-05-29 22:59:08.630  INFO 1 --- [http-nio-3000-exec-6] c.e.j.a.p.a.PersonaInputAdapterRest      : Into historial PersonaEntity in Input Adapter
+2025-05-29 22:59:08.630  INFO 1 --- [http-nio-3000-exec-6] c.e.j.a.p.a.usecase.PersonUseCase        : Output: class co.edu.javeriana.as.personapp.mongo.adapter.PersonOutputAdapterMongo
+2025-05-29 23:07:59.457  INFO 1 --- [http-nio-3000-exec-4] c.e.j.a.p.c.PersonaControllerV1          : esta en el metodo crearTarea en el controller del api
+2025-05-29 23:15:29.267  INFO 1 --- [http-nio-3000-exec-1] c.e.j.a.p.c.PersonaControllerV1          : PUT /persona/MONGO/12345 — actualizarPersona
+2025-05-29 23:15:36.271  INFO 1 --- [http-nio-3000-exec-3] c.e.j.a.p.c.PersonaControllerV1          : Into personas REST API
+2025-05-29 23:15:36.272  INFO 1 --- [http-nio-3000-exec-3] c.e.j.a.p.a.PersonaInputAdapterRest      : Into historial PersonaEntity in Input Adapter
+2025-05-29 23:15:36.273  INFO 1 --- [http-nio-3000-exec-3] c.e.j.a.p.a.usecase.PersonUseCase        : Output: class co.edu.javeriana.as.personapp.mongo.adapter.PersonOutputAdapterMongo
+2025-05-29 23:17:25.970  INFO 1 --- [http-nio-3000-exec-10] c.e.j.a.p.c.PersonaControllerV1          : DELETE /persona/MONGO/12345 — borrarPersona
+2025-05-29 23:17:31.442  INFO 1 --- [http-nio-3000-exec-2] c.e.j.a.p.c.PersonaControllerV1          : Into personas REST API
+2025-05-29 23:17:31.443  INFO 1 --- [http-nio-3000-exec-2] c.e.j.a.p.a.PersonaInputAdapterRest      : Into historial PersonaEntity in Input Adapter
+2025-05-29 23:17:31.444  INFO 1 --- [http-nio-3000-exec-2] c.e.j.a.p.a.usecase.PersonUseCase        : Output: class co.edu.javeriana.as.personapp.mongo.adapter.PersonOutputAdapterMongo
