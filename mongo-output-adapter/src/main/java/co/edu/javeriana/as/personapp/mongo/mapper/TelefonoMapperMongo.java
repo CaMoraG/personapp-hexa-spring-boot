@@ -12,20 +12,22 @@ import lombok.NonNull;
 @Mapper
 public class TelefonoMapperMongo {
 
-	@Autowired
-	private PersonaMapperMongo personaMapperMongo;
+	//@Autowired
+	//private PersonaMapperMongo personaMapperMongo;
 
 	public TelefonoDocument fromDomainToAdapter(Phone phone) {
 		TelefonoDocument telefonoDocument = new TelefonoDocument();
 		telefonoDocument.setId(phone.getNumber());
 		telefonoDocument.setOper(phone.getCompany());
-		telefonoDocument.setPrimaryDuenio(validateDuenio(phone.getOwner()));
+		//telefonoDocument.setPrimaryDuenio(validateDuenio(phone.getOwner()));
 		return telefonoDocument;
 	}
-
+	/* 
 	private PersonaDocument validateDuenio(@NonNull Person owner) {
 		return owner != null ? personaMapperMongo.fromDomainToAdapter(owner) : new PersonaDocument();
 	}
+
+	*/
 	/* 
 	public Phone fromAdapterToDomain(TelefonoDocument telefonoDocument) {
 		Phone phone = new Phone();

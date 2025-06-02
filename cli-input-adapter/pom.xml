@@ -61,6 +61,9 @@
 				<artifactId>spring-boot-maven-plugin</artifactId>
 				<version>${global.springframework.boot.version}</version>
 				<configuration>
+
+					<!-- Indicamos que esta aplicación arrancará con PersonAppCli -->
+        			<mainClass>co.edu.javeriana.as.personapp.PersonAppCli</mainClass>
 					<excludes>
 						<exclude>
 							<groupId>org.projectlombok</groupId>
