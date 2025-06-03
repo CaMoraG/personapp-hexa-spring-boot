@@ -12,7 +12,7 @@ import co.edu.javeriana.as.personapp.domain.Study;
 import lombok.extern.slf4j.Slf4j;
 
 @Slf4j
-//@UseCase
+@UseCase
 public class StudyUseCase implements StudyInputPort {
     private final StudyOutputPort out;
 

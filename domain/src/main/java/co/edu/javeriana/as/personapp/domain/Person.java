@@ -31,4 +31,13 @@ public class Person {
 	public Boolean isValidAge() {
 		return this.age >= 0;
 	}
+
+	public String getName() {
+    return firstName + " " + lastName;
 }
+
+
+
+
+}
+
