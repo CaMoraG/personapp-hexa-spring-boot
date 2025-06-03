@@ -8,13 +8,15 @@ import org.springframework.stereotype.Controller;
 
 import co.edu.javeriana.as.personapp.terminal.adapter.PersonaInputAdapterCli;
 import co.edu.javeriana.as.personapp.terminal.adapter.TelefonoInputAdapterCli;
+import co.edu.javeriana.as.personapp.terminal.adapter.ProfessionInputAdapterCli;
+import co.edu.javeriana.as.personapp.terminal.adapter.StudyInputAdapterCli;
+
 import lombok.extern.slf4j.Slf4j;
 
 @Slf4j
 @Controller
 public class MenuPrincipal {
-	
-	// Constantes para cada módulo
+
     private static final int SALIR = 0;
     private static final int MODULO_PERSONA = 1;
     private static final int MODULO_PROFESION = 2;
@@ -24,28 +26,29 @@ public class MenuPrincipal {
     @Autowired
     private PersonaInputAdapterCli personaInputAdapterCli;
 
-	@Autowired
-	private TelefonoInputAdapterCli telefonoInputAdapterCli;
+    @Autowired
+    private TelefonoInputAdapterCli telefonoInputAdapterCli;
 
-	@Autowired
-	private PersonaMenu personaMenu;
+    @Autowired
+    private ProfessionInputAdapterCli professionInputAdapterCli;
 
-	@Autowired
-	private TelefonoMenu telefonoMenu;
+    @Autowired
+    private StudyInputAdapterCli studyInputAdapterCli;
+
+    @Autowired
+    private PersonaMenu personaMenu;
+
+    @Autowired
+    private TelefonoMenu telefonoMenu;
+
+    @Autowired
+    private ProfessionMenu professionMenu;
+
+    @Autowired
+    private StudyMenu studyMenu;
 
     private final Scanner keyboard = new Scanner(System.in);
 
-	/* 
-    public MenuPrincipal() {
-        this.personaMenu = new PersonaMenu();
-        this.keyboard = new Scanner(System.in);
-    }
-	*/
-
-    /**
-     * Este método se invoca desde el CommandLineRunner;  
-     * muestra el menú principal y, si eligen “1”, invoca a PersonaMenu.
-     */
     public void inicio() {
         boolean terminar = false;
         do {
@@ -63,17 +66,16 @@ public class MenuPrincipal {
                         terminar = true;
                         break;
                     case MODULO_PERSONA:
-                        // 1) El usuario elige primero la base de datos:
                         elegirMotorYEjecutarPersona();
                         break;
                     case MODULO_PROFESION:
-                        log.warn("Módulo de Profesiones aún no implementado.");
+                        elegirMotorYEjecutarProfesion();
                         break;
                     case MODULO_TELEFONO:
-						elegirMotorYEjecutarTelefono();
+                        elegirMotorYEjecutarTelefono();
                         break;
                     case MODULO_ESTUDIO:
-                        log.warn("Módulo de Estudios aún no implementado.");
+                        elegirMotorYEjecutarEstudio();
                         break;
                     default:
                         log.warn("Opción inválida.");
@@ -84,51 +86,27 @@ public class MenuPrincipal {
             }
         } while (!terminar);
 
-        System.out.println("👋 Saliendo del programa CLI...");
+        System.out.println("\uD83D\uDC4B Saliendo del programa CLI...");
         keyboard.close();
     }
 
-    /**
-     * Pide al usuario que elija “MARIA” o “MONGO” y, acto seguido,
-     * invoca al PersonaMenu con el adaptador configurado.
-     */
     private void elegirMotorYEjecutarPersona() {
-        boolean volver = false;
-        do {
-            System.out.println("----------------------");
-            System.out.println("1 - Usar MariaDB");
-            System.out.println("2 - Usar MongoDB");
-            System.out.println("0 - Regresar");
-            System.out.print("Ingrese una opción: ");
-            int opcion = keyboard.nextInt();
-            keyboard.nextLine();
-            try {
-                switch (opcion) {
-                    case 0:
-                        volver = true;
-                        break;
-                    case 1:
-                        personaInputAdapterCli.setPersonOutputPortInjection("MARIA");
-                        personaMenu.iniciarMenu(personaInputAdapterCli, keyboard);
-                        break;
-                    case 2:
-                        personaInputAdapterCli.setPersonOutputPortInjection("MONGO");
-                        personaMenu.iniciarMenu(personaInputAdapterCli, keyboard);
-                        break;
-                    default:
-                        log.warn("Opción inválida.");
-                }
-            } catch (Exception e) {
-                log.warn(e.getMessage());
-            }
-        } while (!volver);
+        elegirMotor("Persona", personaInputAdapterCli, personaMenu);
     }
 
-	 /**
-     * Pide al usuario que elija “MARIA” o “MONGO” y, acto seguido,
-     * invoca al TelefonoMenu con el adaptador configurado.
-     */
     private void elegirMotorYEjecutarTelefono() {
+        elegirMotor("Teléfono", telefonoInputAdapterCli, telefonoMenu);
+    }
+
+    private void elegirMotorYEjecutarProfesion() {
+        elegirMotor("Profesiones", professionInputAdapterCli, professionMenu);
+    }
+
+    private void elegirMotorYEjecutarEstudio() {
+        elegirMotor("Estudios", studyInputAdapterCli, studyMenu);
+    }
+
+    private void elegirMotor(String modulo, Object adapter, Object menu) {
         boolean volver = false;
         do {
             System.out.println("----------------------");
@@ -153,30 +131,23 @@ public class MenuPrincipal {
                         volver = true;
                         break;
                     case 1:
-                        telefonoInputAdapterCli.setPhoneOutputPortInjection("MARIA");
-                        telefonoMenu.iniciarMenu(telefonoInputAdapterCli, keyboard);
+                        adapter.getClass().getMethod("set" + modulo + "OutputPortInjection", String.class)
+                               .invoke(adapter, "MARIA");
+                        menu.getClass().getMethod("iniciarMenu", adapter.getClass(), Scanner.class)
+                            .invoke(menu, adapter, keyboard);
                         break;
                     case 2:
-                        telefonoInputAdapterCli.setPhoneOutputPortInjection("MONGO");
-                        telefonoMenu.iniciarMenu(telefonoInputAdapterCli, keyboard);
+                        adapter.getClass().getMethod("set" + modulo + "OutputPortInjection", String.class)
+                               .invoke(adapter, "MONGO");
+                        menu.getClass().getMethod("iniciarMenu", adapter.getClass(), Scanner.class)
+                            .invoke(menu, adapter, keyboard);
                         break;
                     default:
                         log.warn("Opción inválida.");
                 }
             } catch (Exception e) {
-                log.warn(e.getMessage());
+                log.error("Error en ejecución del menú de " + modulo + ": " + e.getMessage());
             }
         } while (!volver);
     }
-
-	private int leerOpcion() {
-        try {
-            return keyboard.nextInt();
-        } catch (InputMismatchException e) {
-            log.warn("Solo se permiten números.");
-            keyboard.nextLine();
-            return leerOpcion();
-        }
-    }
-
 }

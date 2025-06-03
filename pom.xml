@@ -56,4 +56,27 @@
 			<version>2.20.0</version>
 		</dependency>
 	</dependencies>
+
+	<build>
+	<plugins>
+		<plugin>
+			<groupId>org.apache.maven.plugins</groupId>
+			<artifactId>maven-compiler-plugin</artifactId>
+			<version>3.11.0</version> <!-- Puedes dejar este valor o actualizarlo si deseas -->
+			<configuration>
+				<annotationProcessorPaths>
+					<path>
+						<groupId>org.projectlombok</groupId>
+						<artifactId>lombok</artifactId>
+						<version>1.18.26</version> <!-- Usa tu misma versión aquí -->
+					</path>
+				</annotationProcessorPaths>
+			</configuration>
+		</plugin>
+	</plugins>
+</build>
+
+
+
+	
 </project>

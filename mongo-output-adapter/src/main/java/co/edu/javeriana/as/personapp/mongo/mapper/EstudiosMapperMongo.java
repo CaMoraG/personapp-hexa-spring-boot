@@ -58,7 +58,8 @@ public class EstudiosMapperMongo {
 		study.setProfession(profesionMapperMongo.fromAdapterToDomain(estudiosDocument.getPrimaryProfesion()));
 		study.setGraduationDate(validateGraduationDate(estudiosDocument.getFecha()));
 		study.setUniversityName(validateUniversityName(estudiosDocument.getUniver()));
-		return null;
+		return study;
+
 	}
 
 	private LocalDate validateGraduationDate(LocalDate fecha) {

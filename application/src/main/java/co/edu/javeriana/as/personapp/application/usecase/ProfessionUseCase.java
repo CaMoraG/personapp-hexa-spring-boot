@@ -12,7 +12,7 @@ import co.edu.javeriana.as.personapp.domain.Profession;
 import lombok.extern.slf4j.Slf4j;
 
 @Slf4j
-//@UseCase
+@UseCase
 public class ProfessionUseCase implements ProfessionInputPort {
 
      private final ProfessionOutputPort out;
