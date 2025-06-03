@@ -1,11 +1,19 @@
+# Etapa de compilación con Maven
 FROM maven:3.8-eclipse-temurin-17 AS build
 WORKDIR /app
+
+# Copiamos todo el proyecto y compilamos
 COPY . .
 RUN mvn clean install -B -DskipTests
 
+# Etapa de imagen final
 FROM eclipse-temurin:17-jdk
 WORKDIR /app
-COPY --from=build /app/rest-input-adapter/target/rest-input-adapter-*.jar app.jar
+
+# Aquí copiamos el JAR que genera cli-input-adapter, no el de rest
+COPY --from=build /app/cli-input-adapter/target/cli-input-adapter-*.jar app.jar
+
+# Creamos carpeta de logs (opcional)
 RUN mkdir -p /app/logs && chmod 777 /app/logs
 
 ENTRYPOINT ["java", "-jar", "app.jar"]

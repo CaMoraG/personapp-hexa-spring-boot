@@ -12,21 +12,23 @@ import lombok.NonNull;
 @Mapper
 public class TelefonoMapperMaria {
 
-	@Autowired
-	private PersonaMapperMaria personaMapperMaria;
+	//@Autowired
+	//private PersonaMapperMaria personaMapperMaria;
 
 	public TelefonoEntity fromDomainToAdapter(Phone phone) {
 		TelefonoEntity telefonoEntity = new TelefonoEntity();
 		telefonoEntity.setNum(phone.getNumber());
 		telefonoEntity.setOper(phone.getCompany());
-		telefonoEntity.setDuenio(validateDuenio(phone.getOwner()));
+		//telefonoEntity.setDuenio(validateDuenio(phone.getOwner()));
 		return telefonoEntity;
 	}
-
+	/* 
 	private PersonaEntity validateDuenio(@NonNull Person owner) {
 		return owner != null ? personaMapperMaria.fromDomainToAdapter(owner) : new PersonaEntity();
 	}
 
+	*/
+	/* 
 	public Phone fromAdapterToDomain(TelefonoEntity telefonoEntity) {
 		Phone phone = new Phone();
 		phone.setNumber(telefonoEntity.getNum());
@@ -38,4 +40,18 @@ public class TelefonoMapperMaria {
 	private @NonNull Person validateOwner(PersonaEntity duenio) {
 		return duenio != null ? personaMapperMaria.fromAdapterToDomain(duenio) : new Person();
 	}
+	*/
+	 public Phone fromAdapterToDomain(TelefonoEntity telefonoEntity) {
+		Phone phone = new Phone();
+		phone.setNumber(telefonoEntity.getNum());
+		phone.setCompany(telefonoEntity.getOper());
+
+		// Mapeo mínimo: sólo enlazamos el ID del owner
+		Person owner = new Person();
+		owner.setIdentification( telefonoEntity.getDuenio().getCc() );
+		phone.setOwner(owner);
+
+		return phone;
+  }
+
 }
